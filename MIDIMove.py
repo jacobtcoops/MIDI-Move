@@ -48,7 +48,7 @@ def Start():
     # baudrate - The number of bits transmitted per second
     #   NOTE: MIDI is asynchronous, hence it has to be sent at a standard rate
     # bits - Number of bits of data being sent through MIDI
-    # tx - Tge pin the data is being sent through
+    # tx - The pin the data is being sent through
     uart.init(baudrate=31250, bits=8, parity=None, stop=1, tx=pin0)
 
 # Function for control change
